@@ -1,0 +1,88 @@
+body{
+    font-family: Nunito, sans-serif;
+}
+.active {
+    background-color: #0F345A; /* Replace with your desired color */
+}
+.shape-fill {
+    fill: #FFFFFF;
+}
+.object-cover {
+    object-fit: cover;
+}
+.shadow-custom {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2), 0px 7px 13px rgba(0, 0, 0, 0.14);
+}
+.target-btn {
+    height: 40px;
+    width: 40px;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #0F345A;
+    font-size: 24px;
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    z-index: 999;
+    text-decoration: none;
+}
+.fa {
+    font-family: var(--fa-style-family, "Font Awesome 6 Free");
+    font-weight: var(--fa-style, 900);
+}
+.fa {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display, inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+.divider {
+    height: 100%;
+    width: 2px;
+    background-color: #0084E1;
+}
+.mt-5 {
+    margin-top: 3rem;
+  }
+  
+  .gap-0 {
+    gap: 0;
+  }
+  
+.row {
+    flex-wrap: wrap;
+    margin-top: -0.75rem;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+}
+.visit-item span {
+    background-color: #93BEE1;
+    color: #0F345A;
+    font-size: 36px;
+    font-weight: 600;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.visit-item {
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.visit-item h6 {
+    color: #0F345A;
+    font-size: 20px;
+    font-weight: 600;
+}

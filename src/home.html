@@ -1,0 +1,404 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="/src/custom.css">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>home</title>
+</head>
+<body>
+
+    <a class="target-btn" href="#home">
+        <i class="fa fa-angle-down"></i>
+    </a>
+
+    <!-- Nav Start  -->
+    <nav class="fixed top-0 left-0 w-full bg-white shadow-md z-50">
+        <div class="flex justify-between items-center mt-3 py-2 container">
+            <div class="w-48">
+                <a href="http://127.0.0.1:5500/src/home.html#sealife">
+                    <img src="/Images/logo.png" alt="Logo" class="">
+                </a>
+            </div>
+            <div class="text-[#0F345A] font-medium text-base hidden lg:flex">
+                <ul class="flex gap-5">
+                    <li><a href="#home" class="hover:bg-customBlue hover:text-white px-2 py-2">Home</a></li>
+                    <li><a href="#aboutUs" class="hover:bg-customBlue hover:text-white px-2 py-2">About</a></li>
+                    <li><a href="#event" class="hover:bg-customBlue hover:text-white px-2 py-2">Event</a></li>
+                    <li><a href="#aquarium" class="hover:bg-customBlue hover:text-white px-2 py-2">Aquarium</a></li>
+                    <li><a href="#gallery" class="hover:bg-customBlue hover:text-white px-2 py-2">Gallery</a></li>
+                    <li><a href="#sealife" class="hover:bg-customBlue hover:text-white px-2 py-2">Sea Life</a></li>
+                    <li><a href="#contact" class="hover:bg-customBlue hover:text-white px-2 py-2">Contact</a></li>
+                    <li><a href="#" class="active hover:bg-customBlue text-white px-4 py-2">Get a quote</a></li>
+                </ul>
+            </div>
+            <button class="hamburger text-[black] rounded-lg p-2 lg:hidden mt-1 border" id="menu-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+    </nav>
+    <!-- Nav End  -->
+
+  <!-- Main Start    -->
+  <main>
+    <section id="home" class="py-md-5 py-3">
+        <div class="relative h-screen">
+            <img src="https://jenkinson-sea-life-demo.netlify.app/assets/images/hero.jpg" alt="" class="w-full h-full object-cover">
+            <div class="bg-black bg-opacity-25 backdrop-blur-sm absolute h-[120vh] sm:w-[580px] flex items-center text-white bottom-0 sm:ml-12">
+                <div class="mt-[70px]">
+                    <h1 class="sm:text-4xl text-2xl font-bold mb-2 mt-12 px-4">Jenkinson's Sea Life</h1>
+                    <p class="px-4">Jenkinson’s sea life is a privately owned facility located on the boardwalk in Point Pleasant Beach, NJ. Since June of 1991, the sea life has been dedicated to educating the public on all aspects of marine life and conservation. Each exhibit is designed to promote awareness of the animals, their habitats, and conservation. We strive to provide our guests with a unique and memorable experience through creative exhibits as well as innovative educational and outreach programs.</p>
+                </div>
+            </div>
+            <div class="absolute inset-x-0 bottom-0 w-full shape-fill">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"></path>
+                </svg>
+            </div>
+        </div>
+    </section>  
+    <div class="">
+        <section id="aboutUs" class="py-md-5 py-3 container">
+            <div class="grid grid-cols-1 md:grid-cols-2 justify-center">
+                <div class="items-center flex mb-4 md:mb-0">
+                    <img src="/Images/banner.jpg" alt="" class="w-full h-auto">
+                </div>
+                <div class="mt-4 md:mt-0 md:ml-8">
+                    <h2 class="sm:text-4xl text-2xl text-[#0084E1] font-bold text-left">About Sea Life</h2>
+                    <p>Explore the splendor of the marine kingdom at South East Asia (S.E.A) Aquarium Singapore, which is one of the largest aquariums in the world. It is an underwater wonderland featuring about 100,000 different aquatic creatures from the world's major oceans and seas. You can find a large number of exotic fishes, majestic sharks, and other sea creatures spread across eight different zones in 40 distinct habitats. The aquarium also houses rare and endangered species like the Bowmouth Guitarfish, Moray Eel, and Blue Tang. You can spot unique corals like the Bubble Coral, Sun Coral, and Brain Coral and learn more about coral reefs and their importance in the marine ecosystem.</p>
+                </div>
+            </div>
+        </section>
+
+    <section id="event" class="py-md-5 py-3 container">
+        <div class="flex flex-col md:flex-row items-center mt-5 gap-3">
+            <div class="h-[2px] bg-blue-500 flex-1"></div>
+            <h2 class="sm:text-4xl text-2xl font-bold text-center text-[#0084E1]">Jenkinson Events</h2>
+            <div class="h-[2px] bg-blue-500 flex-1"></div>
+        </div>
+            <div class="flex justify-center mt-8 mb-10">
+                <div class="bg-customBlue text-white w-full sm:w-72 py-2 m-2 text-center">Adult Event</div>
+                <div class="bg-customBlue text-white w-full sm:w-72 py-2 m-2 text-center">Child Event</div>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-5 mb-10">
+                <div class="bg-white pb-5 shadow-custom w-full">
+                    <img src="/Images/event-4.jpg" alt="" class="w-full h-[200px] object-cover">
+                    <h2 class="text-2xl text-center font-semibold ">Scout Day</h2>
+                    <div class="flex justify-center mt-4">
+                        <button class="bg-customBlue text-white px-5 py-[6px]">Explore More</button>
+                    </div>
+                </div>
+                <div class="bg-white pb-5 shadow-custom w-full">
+                    <img src="/Images/event-3.jpg" alt="" class="w-full h-[200px] object-cover">
+                    <h2 class="text-2xl text-center font-semibold ">Children's Festival</h2>
+                    <div class="flex justify-center mt-4">
+                        <button class="bg-customBlue text-white px-5 py-[6px]">Explore More</button>
+                    </div>
+                </div>
+                <div class="bg-white pb-5 shadow-custom w-full">
+                    <img src="/Images/event-6.jpeg" alt="" class="w-full h-[200px] object-cover">
+                    <h2 class="text-2xl text-center font-semibold ">Ocean Investigators</h2>
+                    <div class="flex justify-center mt-4">
+                        <button class="bg-customBlue text-white px-5 py-[6px]">Explore More</button>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="aquarium" class="py-md-5 py-3 container">
+        <div class="w-full">
+            <div class="flex items-center mt-5 gap-5">
+                <div class="h-[2px] bg-blue-500 flex-1"></div>
+                <h2 class="sm:text-4xl text-2xl font-bold text-center text-[#0084E1]">Aquariums in Singapore</h2>
+                <div class="h-[2px] bg-blue-500 flex-1"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12 mb-5">
+                <div class="bg-white pb-5 shadow-custom">
+                    <img src="/Images/aqua-locate-2.jpg" alt="" class="w-full lg:h-[360px] h-[150px] object-cover">
+                    <h2 class="text-2xl text-center font-semibold text-[#0084E1] mt-2">S.E.A. Aquarium</h2>
+                    <p class="text-center mx-4">There are more than 100,000 marine creatures here, representing 1,000 species, and more than 40 different habitats, making S.E.A. Aquarium one of the biggest aquariums in the world.</p>
+                    <div class="h-px bg-blue-500 flex-1 mx-4 mt-5"></div>
+                    <div class="flex justify-between pt-2 mx-4">
+                        <div>
+                            <span class="font-bold text-customBlue">Timing:</span> Mon - Sun | 10am to 5pm
+                        </div>
+                        <div>
+                            <span class="font-bold text-customBlue">Location:</span> 8 Sentosa Gateway
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white pb-5 shadow-custom">
+                    <img src="/Images/aqua-locate-1.jpg" alt="" class="w-full lg:h-[360px] h-[150px] object-cover">
+                    <h2 class="text-2xl text-center font-semibold text-[#0084E1] mt-2">Marine Life Park</h2>
+                    <p class="text-center mx-4">One of the most visited places in Sentosa is Marine Life Park. Two of Singapore's most popular tourist destinations, the S.E.A. Aquarium and Adventure Cove Water Park.</p>
+                    <div class="h-px bg-blue-500 flex-1 mx-4 mt-5"></div>
+                    <div class="flex justify-between pt-2 mx-4">
+                        <div>
+                            <span class="font-bold text-customBlue">Timing:</span> Mon - Sun | 10am to 5pm
+                        </div>
+                        <div>
+                            <span class="font-bold text-customBlue">Location:</span> 8 Sentosa Gateway
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="py-md-5 py-3 container">
+        <div class="flex flex-col md:flex-row items-center mt-5 gap-3">
+            <div class="h-[2px] bg-blue-500 flex-1"></div>
+            <h2 class="sm:text-4xl text-2xl font-bold text-center text-[#0084E1]">Jenkinson Gallery</h2>
+            <div class="h-[2px] bg-blue-500 flex-1"></div>
+        </div>
+    
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-10">
+            <div>
+                <img src="/Images/gallery-1.jpg" alt="" class="hover:shadow-custom w-full">
+            </div>
+            <div>
+                <img src="/Images/gallery-2.jpg" alt="" class="hover:shadow-custom w-full">
+            </div>
+            <div>
+                <img src="/Images/gallery-3.jpg" alt="" class="hover:shadow-custom w-full">
+            </div>
+            <div>
+                <img src="/Images/gallery-4.jfif" alt="" class="hover:shadow-custom w-full">
+            </div>
+            <div>
+                <img src="/Images/gallery-5.jpg" alt="" class="hover:shadow-custom w-full">
+            </div>
+            <div>
+                <img src="/Images/gallery-6.jpg" alt="" class="hover:shadow-custom w-full">
+            </div>
+            <div>
+                <img src="/Images/gallery-7.jfif" alt="" class="hover:shadow-custom w-full">
+            </div>
+            <div>
+                <img src="/Images/gallery-8.jfif" alt="" class="hover:shadow-custom w-full">
+            </div>
+        </div>
+    </section>
+
+    <section id="sealife" class="py-md-5 py-3 container">
+        <div class="flex flex-col md:flex-row items-center mt-20 gap-3">
+            <div class="h-[2px] bg-blue-500 flex-1"></div>
+            <h2 class="sm:text-4xl text-xl font-bold text-center text-[#0084E1]">Sea Creature Information</h2>
+            <div class="h-[2px] bg-blue-500 flex-1"></div>
+        </div> 
+    
+        <div class="flex flex-wrap sm:flex-nowrap justify-center mt-8 mb-10">
+            <div class="bg-customBlue text-white w-[120px] sm:w-full py-2 text-center">Sea Fish</div>
+            <div class="bg-customBlue text-white w-[120px] sm:w-full py-2 text-center">Sea Shark</div>
+            <div class="bg-customBlue text-white w-[120px] sm:w-full py-2 text-center">Sea Creature</div>
+            <div class="bg-customBlue text-white w-[120px] sm:w-full py-2 text-center">Sea Plant</div>
+            <div class="bg-customBlue text-white w-[120px] sm:w-full py-2 text-center">Sea Coral</div>
+        </div>
+    
+        <div class="grid md:grid-cols-3 grid-cols-1 gap-5">
+            <div class="bg-white pb-5 shadow-custom">
+                <img src="/Images/sea-12.jpg" alt="" class="w-full">
+                <h2 class="text-center font-bold text-xl mt-2 text-customBlue">Bottlenose Dolphin</h2>
+                <p class="text-center mx-4">
+                    Dolphins are social animals that live in small groups known as pods.
+                </p>
+            </div>
+            <div class="bg-white pb-5 shadow-custom">
+                <img src="/Images/sea-7.jpg" alt="" class="w-full">
+                <h2 class="text-center font-bold text-xl mt-2 text-customBlue">Bumphead Parrotfish</h2>
+                <p class="text-center mx-4">
+                    Bumphead parrotfish are one of the largest coral reef fishes, and can grow up to 1.3 metres in length.
+                </p>
+            </div>
+            <div class="bg-white pb-5 shadow-custom">
+                <img src="/Images/sea-8.jpg" alt="" class="w-full">
+                <h2 class="text-center font-bold text-xl mt-2 text-customBlue">Clownfish</h2>
+                <p class="text-center mx-4">
+                    Clownfish are feisty fish that have a symbiotic relationship with sea anemones.
+                </p>
+            </div>
+            <div class="bg-white pb-5 shadow-custom">
+                <img src="/Images/sea-4.jpg" alt="" class="w-full">
+                <h2 class="text-center font-bold text-xl mt-2 text-customBlue">Blue Tang</h2>
+                <p class="text-center mx-4">
+                    Blue Tangs are surgeonfish that have a royal blue body with a black palette shape and a yellow tail.
+                </p>
+            </div>
+            <div class="bg-white pb-5 shadow-custom">
+                <img src="/Images/sea-14.jpg" alt="" class="w-full">
+                <h2 class="text-center font-bold text-xl mt-2 text-customBlue">Pickhandle Barracuda</h2>
+                <p class="text-center mx-4">
+                    Pickhandle barracudas are known to be solitary active hunters but have been seen to form small schools.
+                </p>
+            </div>
+            <div class="bg-white pb-5 shadow-custom">
+                <img src="/Images/sea-20.jpg" alt="" class="w-full">
+                <h2 class="text-center font-bold text-xl mt-2 text-customBlue">Scout Day</h2>
+                <p class="text-center mx-4">
+                    Snubnose pompanos inhabit sandy shores and coral reefs, where they forage for hard-shelled invertebrates such as crabs.
+                </p>
+            </div>
+        </div>
+    </section>
+
+     <section id="contact" class="py-md-5 py-3 container">
+        <div class="flex flex-col md:flex-row items-center mt-20 gap-3">
+            <div class="h-[2px] bg-blue-500 flex-1"></div>
+            <h2 class="sm:text-4xl text-2xl font-bold text-center text-[#0084E1]">Connect To Jenkinson</h2>
+            <div class="h-[2px] bg-blue-500 flex-1"></div>
+        </div>
+    
+        <div class="grid grid-cols-1 lg:grid-cols-[2fr_1fr_2fr] lg:mt-5">
+            <div class="mb-5 lg:mb-0">
+                <h6 class="text-xl lg:text-3xl font-semibold text-[#0F345A]">Contact Us</h6>
+                <div class="grid grid-cols-1 gap-4 contact-us mt-4">
+                  <div class="flex items-center gap-4">
+                    <i class="fa-solid fa-location-dot text-blue-800"></i>
+                    <span>8 Sentosa Gateway, Sentosa Island, Singapore 098269</span>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <i class="fa-solid fa-envelope text-blue-800"></i>
+                    <span>info@jenkinsonsealife.com</span>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <i class="fa-solid fa-phone text-blue-800"></i>
+                    <span>+65 4259 0628</span>
+                  </div>
+                  <div class="flex items-center gap-4">
+                    <i class="fa-solid fa-clock text-blue-800"></i>
+                    <span>Mon - Sun : 9 AM - 7 PM</span>
+                  </div>
+                </div>
+                <div class="grid grid-cols-2 gap-4 mt-5 site-visitor">
+                  <div class="col visit-item">
+                    <span id="counter">6</span>
+                    <h6 class="text-sm font-medium">Site Visitor</h6>
+                  </div>
+                  <div class="col visit-item">
+                    <span>4.5</span>
+                    <h6 class="text-sm font-medium">Site Rating</h6>
+                  </div>
+                </div>
+            </div>
+           
+            <div class="flex justify-center items-center">
+                <div class="divider"></div>
+            </div>
+                
+            <div>
+                <h6 class="text-xl lg:text-3xl font-semibold text-[#0F345A]">Get A Quote</h6>
+                <form class="mt-4">
+                    <div class="grid grid-cols-2 gap-2">
+                        <div class="col-span-2 sm:col-span-1">
+                            <label class="block text-sm font-medium mb-1">First Name</label>
+                            <input type="text" class="block w-full px-3 py-2 border shadow-sm focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-600" placeholder="Enter First Name">
+                        </div>
+                        <div class="col-span-2 sm:col-span-1">
+                            <label class="block text-sm font-medium mb-1">Last Name</label>
+                            <input type="text" class="block w-full px-3 py-2 border shadow-sm focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-600" placeholder="Enter Last Name">
+                        </div>
+                        <div class="col-span-2 sm:col-span-1">
+                            <label class="block text-sm font-medium mb-1">Email Address</label>
+                            <input type="email" class="block w-full px-3 py-2 border shadow-sm focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-600" placeholder="Enter Email Address">
+                        </div>
+                        <div class="col-span-2 sm:col-span-1">
+                            <label class="block text-sm font-medium mb-1">Phone Number</label>
+                            <input type="tel" class="block w-full px-3 py-2 border shadow-sm focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-600" placeholder="Enter Phone Number">
+                        </div>
+                        <div class="col-span-2">
+                            <label class="block text-sm font-medium mb-1">Message</label>
+                            <textarea class="block w-full px-3 py-2 border border-gray-300 shadow-sm focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500" placeholder="Say Something !"></textarea>
+                        </div>
+                        <div class=" mt-4 col-span-2">
+                            <button type="submit" class="w-1/4 py-2 text-sm font-medium bg-customBlue hover:bg-blue-700 text-white">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Start -->
+    <div class="w-auto 2xl:h-96 xl:h-96 lg:h-72 md:h-60 sm:h-[216px] h-[150px] mb-32 mt-16 container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.3186097535!2d74.35606901435962!3d31.          5203689941396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dbb000000000%20%20!2sPakistan!5e0!3m2!1sen!2s!4v1699592908389!5m2!1sen!2s"
+        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="h-full w-full"></iframe>
+    </div>
+    <!-- Map End -->
+    </div>
+  </main>
+  <!-- Main End  -->
+
+  <!-- Footer Start -->
+  <footer>
+    <div class="flex flex-col lg:grid lg:grid-cols-2 bg-[#93BEE1] min-h-[300px]">
+        <div class="">
+            <div>
+                <div class="w-[234.4px] h-[54.68px]">
+                    <a href="http://127.0.0.1:5500/src/home.html#sealife"><img src="/Images/logo.png" alt="" class="sm:ml-[86.44px] pt-[47.13px] lg:mx-[40px] mx-4"></a>
+                </div>
+                <div class="flex mt-[70px] sm:ml-[86px] lg:mx-[40px] mx-4 pb-4 text-[#0F345A] font-semibold">
+                    <p>Jenkinson Sea Life is a privately owned facility located on the boardwalk in Point Pleasant Beach, Singapore. It has been dedicated to educating the public on all aspects of marine life and conservation.</p>
+                </div>
+                <div class="flex gap-3 lg:mx-[85px] mx-4">
+                    <a href="https://www.facebook.com" class="bg-white text-blue-600 font-bold py-[2px] px-[6px] rounded"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com" class="bg-white text-blue-600 font-bold py-[2px] px-[6px] rounded"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com" class="bg-white text-blue-600 font-bold py-[2px] px-[6px] rounded"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col lg:grid lg:grid-cols-2 mx-4">
+            <div class="mt-[70px] text-[#0F345A]">
+                <h2 class="font-bold text-xl">Quick Links</h2>
+                <ul class="mt-4 font-semibold">
+                    <section id="home" class="py-md-5">
+                        <a href="#home"><li>Home</li></a>
+                    </section>
+                    <section id="event" class="py-md-5">
+                        <a href="#event"><li>Event</li></a>
+                    </section>
+                    <section id="aquarium" class="py-md-5">
+                        <a href="#aquarium"><li>Aquarium</li></a>
+                    </section>
+                    <section id="gallery" class="py-md-5">
+                        <a href="#gallery"><li>Gallery</li></a>
+                    </section>
+                    <section id="sealife" class="py-md-5">
+                        <a href="#sealife"><li>Sea Life</li></a>
+                    </section>
+                </ul>
+            </div>
+            <div class="mt-[70px] text-[#0F345A]">
+                <h2 class="font-bold text-xl">Other Links</h2>
+                <ul class="mt-4 font-semibold">
+                    <section id="about" class="py-md-5">
+                        <a href="#aboutUs"><li>About</li></a>
+                    </section>
+                    <section id="contact" class="py-md-5">
+                        <a href="#contact"><li>Contact</li></a>
+                    </section>
+                    <section id="privacy" class="py-md-5">
+                        <a href="#privacy"><li>Privacy Policy</li></a>
+                    </section>
+                    <section id="Conditions" class="py-md-5">
+                        <a href="#Conditions"><li>Terms & Conditions</li></a>
+                    </section>
+                    <section id="Sitemap" class="py-md-5">
+                        <a href="#Sitemap"><li>Sitemap</li></a>
+                    </section>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="bg-[#0084E1] text-white"><p class="lg:mx-[85px] mx-4">© 2024 | Alrights reserved by Muhammad-Usman.dev</p></div>
+</footer>
+<!-- Footer End -->
+</body>
+</html>
